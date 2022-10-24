@@ -5,7 +5,7 @@ project(mbedtls_SGX "C" "CXX")
 list(APPEND CMAKE_MODULE_PATH "${PROJECT_SOURCE_DIR}/cmake")
 find_package(SGX REQUIRED)
 
-set(MBEDTLS_VERSION 2.24.0)
+set(MBEDTLS_VERSION 2.28.1)
 
 set(COMPILE_EXAMPLES NO CACHE BOOL "Build examples")
 
